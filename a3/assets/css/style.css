@@ -1,0 +1,99 @@
+body {
+  background-color: coral;
+}
+
+#name {
+  background-color: teal;
+  font-family: impact; font-size: 200%;
+  border-width: small;
+  border-color: black;
+  border-style: dotted;
+  border-size: 100%; padding: 10px 10px 10px 10px; margin: 20px;
+  text-align: center;
+}
+
+address {
+  color: rgb(189, 26, 168);
+  text-align: center;
+}
+.Link:hover {
+  color: teal;
+}
+.Link {
+  text-decoration: none;
+  color: rgb(189, 26, 168);
+}
+
+/* link editting...etc. Fix format between two link tags and one without a link being in same text box area */
+
+
+h3 {
+  font-family: 'Charmonman', cursive;
+  font-weight: bold;
+  font-size: 20px;
+  text-decoration: underline;
+  background-color: rgb(189, 189, 187);
+  width: auto;
+  padding-right: -100px;
+  background-clip: padding-box;
+  display: inline-block;
+}
+/* Remember inline-block (treats text as a box and text) */
+
+hr {
+  display: block;
+  height: 1px;
+  border: 0;
+  border-top: 1px solid #ccc;
+  margin: 1em 0;
+  padding: 0;
+  border-color: black;
+}
+/* hr line color change to black (never used this code before) = border-top: 1px solide #ccc*/
+
+#TheBoys {
+background-image: url("../images/IMG_4862.jpg");
+width: auto;
+	height: 300px;
+	background-repeat: no-repeat;
+	background-position: center center;
+	/*background-attachment: fixed;*/
+	/*background-size: cover;*/
+	background-size: contain;
+}
+
+#major {
+ font-weight: bold;
+ text-align: left;
+}
+
+#info {
+  font-style: italic;
+}
+
+
+
+.grid-container {
+  display: grid;
+	grid-template-columns: 1fr 150px;
+}
+
+
+
+
+/* Formatting section */
+.sections {
+  background-color: rgba(54, 200, 200, 0.77);
+}
+
+.titles {
+  font-weight: bold;
+}
+.test {
+  list-style-type: disc;
+  list-style-position: inside;
+}
+
+.bullet-tags {
+  font-weight: bold;
+}
