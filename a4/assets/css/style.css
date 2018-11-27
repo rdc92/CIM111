@@ -1,0 +1,309 @@
+
+body {
+  font-size: 15px;
+  background-color: rgb(227, 139, 24);
+}
+
+button {
+  background: #ffc600;
+  border: 0;
+  padding: 10px 20px;
+}
+
+img {
+  max-width: 100%;
+}
+
+.wrapper{
+	display: grid;
+	grid-gap: 20px;
+}
+
+/* TOP HEADER SECTION //////////////////// */
+/* This is top header section of the site */
+.top{
+	display: grid;
+	grid-gap: 20px;
+	grid-template-areas:
+		"hero"
+		"hero"
+}
+
+.frosted{
+	background-color: rgb(3, 103, 25);
+  background-color: rgba(3, 103, 25, 0.5);
+	width: 300px;
+	height: 75px;
+	padding-left: 10px;
+  padding-top: 10px;
+
+}
+
+.frosted h1{
+  text-decoration: underline;
+}
+
+.hero{
+	grid-area: hero;
+	min-height: 400px;
+	background: blue;
+	background-image: url("../images/IMG_7466.jpg");
+	color: white;
+	background-size: cover;
+	background-position: bottom right;
+	padding: 50px;
+	display: grid;
+	justify-content: start;
+    align-content: left;
+}
+/* Guitar html styling */
+.hero2{
+  grid-area: hero;
+  min-height: 400px;
+  background: blue;
+  background-image: url("../images/IMG_7358.jpg");
+  color: white;
+  background-size: cover;
+  background-position: bottom right;
+  padding: 50px;
+  display: grid;
+  justify-content: start;
+    align-content: left;
+}
+
+/* Bagpipe html styling */
+.hero3{
+  grid-area: hero;
+  min-height: 400px;
+  background: blue;
+  background-image: url("../images/IMG_7112.jpg");
+  color: white;
+  background-size: cover;
+  background-position: bottom right;
+  padding: 50px;
+  display: grid;
+  justify-content: start;
+    align-content: left;
+}
+
+
+.frosted p{
+	font-size: 16px;
+}
+/* ///////////////////////////////////// */
+
+/* NAVIGATION SECTION //////////////////// */
+.menu ul{
+	display: grid;
+	padding: 0;
+	list-style: none;
+	grid-template-columns: repeat(auto-fit, minmax(100px, 1fr));
+}
+
+.menu li{
+	margin-right: 10px;
+	text-align: center;
+	font-size: 24px;
+    /* background-color: rgb(23,202,255); */
+
+}
+
+.menu a{
+	color: white;
+	text-decoration: none;
+	text-transform: uppercase;
+		margin-right: 20px;
+		margin-bottom: 10px;
+
+	background-color: rgb(3, 103, 25);
+}
+
+.menu a:hover{
+	text-decoration: underline;
+	margin-right: 20px;
+	background-color: #950530;
+}
+
+
+/* ///////////////////////////////////// */
+
+
+/* FEATURES SECTION //////////////////// */
+
+.features{
+	display: grid;
+	grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+}
+
+.feature h3{
+	color: rgb(185, 5, 21);
+}
+
+.feature{
+	background: gray;
+	padding: 10px;
+	border: 1px solid white;
+	text-align: center;
+}
+
+.feature .icon{
+	font-size: 50px;
+	color: rgb(3, 103, 25);
+}
+
+.feature p{
+	color: rgb(3, 103, 25);
+  font-style: bold;
+}
+/* ///////////////////////////////////// */
+
+
+/* ABOUT ////////////////////////////// */
+
+.about{
+	background: #0e740e;
+	color: white;
+	padding: 50px;
+	display: grid;
+	grid-template-columns: 1fr 1fr;
+
+  /* 1fr 1fr;
+  grid-tmplate-rows: 400px 300px;
+  break-after: 1fr; */
+
+}
+
+.about__details{
+  padding-left: 25px;
+}
+
+.about__details h2{
+  font-weight: bold;
+  text-decoration: underline;
+}
+
+/* Guitar About */
+
+.about2{
+	background: #0e740e;
+	color: white;
+	padding: 50px;
+	display: grid;
+	grid-template-columns: 1fr 1fr;
+
+  /* 1fr 1fr;
+  grid-tmplate-rows: 400px 300px;
+  break-after: 1fr; */
+
+}
+
+.about__details2{
+  padding-left: 25px;
+  font-size: auto;
+  text-align: left;
+
+}
+
+.about__details2 h2{
+  font-weight: bold;
+  text-decoration: underline;
+}
+/* ///////////////////////////////////// */
+
+
+/* GALLERY ////////////////////////////// */
+.gallery{
+	display: grid;
+	grid-gap: 20px;
+	grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+}
+
+.gallery img{
+	width: 100%;
+}
+
+.gallery h2{
+	grid-column: 1/ -1;
+	display: grid;
+	grid-template-columns: 1fr auto 1fr;
+	grid-gap: 20px;
+	align-items: center;
+}
+
+.gallery h2:before, .gallery h2:after{
+	display: block;
+	content: '';
+	height: 10px;
+	background: #0e740e;
+}
+
+/* ///////////////////////////////////// */
+
+
+/* MEDIA QUERIES //////////////////////////////
+*/
+
+@media (max-width: 700px){
+	.top{
+		grid-template-areas:
+		"hero hero"
+
+	}
+	 li{
+		font-size: 14px;
+		margin-bottom: 20px;
+		height: 7px;
+
+	}
+
+
+
+}
+
+@media (max-width: 500px){
+	.top{
+		grid-template-areas:
+		"hero"
+	}
+
+	.price{
+	font-size: 24px;
+	font-weight: 300;
+	margin-left: 10px;
+}
+
+img{
+	width: 250px;
+}
+
+.about{
+		grid-template-columns: 300px;
+
+}
+
+
+}
+
+/* FOOTER AREA ///////////////////// */
+
+footer {
+    display: flex;
+    padding: 10px 5px;
+    background: #0e740e;
+  	color: white;
+
+}
+
+footer p {
+    flex: 1;
+    margin: 0;
+}
+
+footer ul {
+    flex: 1;
+    display: flex;
+    justify-content: space-around;
+    margin: 0;
+    padding-left: 0;
+    list-style: none;
+}
