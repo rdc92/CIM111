@@ -1,0 +1,102 @@
+body{
+  background-color: rgb(23, 171, 226);
+  padding: 30px;
+}
+/* Entire webpage styling */
+
+.header{
+  display: grid;
+  background-color: rgb(224, 65, 22);
+  margin: auto;
+  border-radius: 25px;
+}
+
+
+.header h1{
+  text-align: center;
+  margin-top: 50px;
+  margin-bottom: 50px;
+  text-decoration: underline;
+}
+/* header class styling */
+
+
+
+/* NAV Question Sections */
+
+.choices{
+  display: grid;
+
+  grid-gap: 20px;
+  background-color: rgb(224, 65, 22);
+  margin-left: 50px;
+  margin-right: 50px;
+  margin-top: 50px;
+  margin-bottom: 50px;
+  border-radius: 25px;
+  text-align: center;
+  padding: 50px;
+  /* padding affects size inside orange box area */
+}
+
+.choices h1{
+  text-align: center;
+}
+
+
+/* Button styling */
+.button1{
+  margin-left: 100px;
+  margin-right: 100px;
+}
+
+.button2{
+  margin-left: 100px;
+  margin-right: 100px;
+}
+
+.button3{
+  margin-left: 100px;
+  margin-right: 100px;
+}
+
+.button4{
+  margin-left: 100px;
+  margin-right: 100px;
+}
+
+.buttondiv{
+  margin-left: 50px;
+  margin-right: 50px;
+  text-align: center;
+  align-content: center;
+  padding: 10px;
+}
+.prompt{
+  padding-left: 80px;
+  padding-right: 80px;
+}
+
+.button5{
+  margin-left: 100px;
+  margin-right: 100px;
+}
+.button6{
+  margin-left: 100px;
+  margin-right: 100px;
+}
+.button7{
+  margin-left: 100px;
+  margin-right: 100px;
+}
+
+
+
+
+/* Nav class styling */
+
+
+
+
+
+/* color picker command-shift-c */
