@@ -11,6 +11,18 @@ body{
   border-radius: 25px;
 }
 
+.pic{
+  max-width: 60%;
+  height: auto;
+  align-items: center;
+  margin-left: 90px;
+  margin-right: 50px;
+  margin-bottom: 50px;
+  padding-left: 20px;
+  padding-right: 20px;
+
+}
+
 
 .header h1{
   text-align: center;
@@ -45,25 +57,12 @@ body{
 
 
 /* Button styling */
-.button1{
+.button1, .button2, .button3, .button4, .button5, .button6, .button7{
   margin-left: 100px;
   margin-right: 100px;
 }
 
-.button2{
-  margin-left: 100px;
-  margin-right: 100px;
-}
 
-.button3{
-  margin-left: 100px;
-  margin-right: 100px;
-}
-
-.button4{
-  margin-left: 100px;
-  margin-right: 100px;
-}
 
 .buttondiv{
   margin-left: 50px;
@@ -77,18 +76,7 @@ body{
   padding-right: 80px;
 }
 
-.button5{
-  margin-left: 100px;
-  margin-right: 100px;
-}
-.button6{
-  margin-left: 100px;
-  margin-right: 100px;
-}
-.button7{
-  margin-left: 100px;
-  margin-right: 100px;
-}
+
 
 
 
